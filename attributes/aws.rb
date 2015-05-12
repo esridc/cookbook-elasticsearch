@@ -25,7 +25,7 @@ aws = Chef::DataBagItem.load('elasticsearch', 'aws')[node.chef_environment] resc
 
 # The version of AWS plugin is dependent upon the ES version
 # https://github.com/elasticsearch/elasticsearch-cloud-aws
-default.elasticsearch['plugins']['elasticsearch/elasticsearch-cloud-aws']['version'] = '2.1.1'
+default.elasticsearch['plugins']['elasticsearch/elasticsearch-cloud-aws']['version'] = '2.5.0'
 
 # === AWS ===
 # AWS configuration is set based on data bag values.

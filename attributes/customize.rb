@@ -5,7 +5,7 @@
 #
 # The following shows how to override the Elasticsearch version and cluster name settings:
 #
-normal[:elasticsearch][:version] = '1.4.2'
+normal[:elasticsearch][:version] = '1.5.2'
 # normal[:elasticsearch][:cluster][:name] = 'my-cluster'
 
-normal['elasticsearch']['plugins']['elasticsearch/elasticsearch-cloud-aws']['version'] = '2.4.1'
+#normal['elasticsearch']['plugins']['elasticsearch/elasticsearch-cloud-aws']['version'] = '2.4.1'
